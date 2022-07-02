@@ -1,6 +1,5 @@
 if __name__ == '__main__':
     strs = list(map(str,input().split()))
-    print(strs)
     for i in range(len(strs)):
             for j in range(i+1,len(strs)):
                 if len(strs[i])>len(strs[j]):
